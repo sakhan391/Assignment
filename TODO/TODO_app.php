@@ -100,7 +100,6 @@ function WriteData()
 	        $Date = $data[$i]["Date"];
 	        $Time = $data[$i]["Time"];
 	    if ($Name == $Temp1 && $Date == $Temp2 && $Time == $Temp3) {
-	    	print_r($data[$i]);
 	       	$extra = array(
 			'Name' => $_POST['Task'],
 			'Date' => $_POST['Date'],
